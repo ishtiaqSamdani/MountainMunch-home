@@ -316,7 +316,7 @@ button.addEventListener("click", function (name) {
           "> temperature is around " +
           tempy.toString() +
           " this week its seems to hot";
-      } else if (tempy > 26 && temp <= 35) {
+      } else if (tempy > 26 && tempy <= 35) {
         tempinfo.innerHTML =
           "> temperature is around " +
           tempy.toString() +
